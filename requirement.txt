@@ -1,0 +1,5 @@
+django
+django_rest_framework
+nltk
+django-cors-headers
+djangorestframework-simplejwt
