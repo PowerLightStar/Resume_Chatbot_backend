@@ -8,8 +8,6 @@ from rest_framework.permissions import AllowAny
 import random, time
 @api_view(['GET'])
 @permission_classes([AllowAny])
-
-
 def dashboard(request):
   
     return Response("Hello")
