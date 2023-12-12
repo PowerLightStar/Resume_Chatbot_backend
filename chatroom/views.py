@@ -1,17 +1,22 @@
 # from django.shortcuts import render
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework import viewsets, permissions
+from rest_framework.permissions import AllowAny
 # Create your views here.
 
 import random, time
 @api_view(['GET'])
+@permission_classes([AllowAny])
+
+
 def dashboard(request):
   
     return Response("Hello")
 
 
 @api_view(['POST'])
+@permission_classes([AllowAny])
 def chatbot(request):
     msg = request.data['message']
     print(msg, "------------")
