@@ -1,3 +1,5 @@
 otpauth://totp/BrianGit?secret=ATXMDDVDYY7WGT6W&digits=6&icon=WinAuth
+otpauth://totp/BrianGit+1?secret=ATXMDDVDYY7WGT6W&digits=6&icon=WinAuth
 otpauth://totp/PowerLightGit?secret=YA3LGWP3BETVOWLL&digits=6&icon=WinAuth
 otpauth://totp/PowerLightEmail?secret=R6QQDFVCVAKVUNVD2ZHRTJVSFXSWWHUC&digits=6&icon=WinAuth
+otpauth://totp/SalvadorEmail?secret=GIBHSDGZ7JKBAE6UGNZYVEBPAY4TKNLC&digits=6&icon=WinAuth
